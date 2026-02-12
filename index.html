@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkine - Financial Research & Advisory</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./global-map.css" />
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top-nav">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html" data-link>
+                <img src="https://kalkine.in/assets/img/kalkine_logo.png" alt="Kalkine Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+  <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+  <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+  <li class="nav-item"><a class="nav-link" href="./life.html">Life At Kalkine</a></li>
+  <li class="nav-item"><a class="nav-link" href="./careers.html">Careers</a></li>
+  <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+</ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Dynamic page content -->
+    <main id="content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="carousel-3d-container">
+                    <div class="carousel-3d">
+                        <div class="carousel-3d-item active" style="background-image: url('banner_1.webp')"></div>
+                        <div class="carousel-3d-item next" style="background-image: url('banner_2.webp')"></div>
+                        <div class="carousel-3d-item hidden" style="background-image: url('banner_3.webp')"></div>
+                    </div>
+                    <div class="carousel-3d-controls">
+                        <div class="carousel-3d-btn prev-btn"><i class="fas fa-chevron-left"></i></div>
+                        <div class="carousel-3d-btn next-btn"><i class="fas fa-chevron-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Story Section (Home only) -->
+        <section class="story-section py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Text -->
+                    <div class="col-md-7">
+                        <h2 class="mb-3">We have a rocking story</h2>
+                        <p>
+                            Following the footsteps of the “father of value investing”,
+                            <strong>Benjamin Graham</strong>, Kalkine was founded with an aim
+                            of channelizing energies and enthusiasm towards the stock market
+                            into something that operates for the greater good.
+                        </p>
+                        <p>
+                            The founding blocks, ethics and code of conduct were laid and our
+                            CEO, <strong>Mr. Kunal Sawhney</strong> started to put together people
+                            who he thought could understand his vision. From very humble beginnings,
+                            we took everyday as it came and still believe it to be day zero for us
+                            in terms of where we wish to reach.
+                        </p>
+                        <a href="./about.html" data-link class="readmore-btn mt-3">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Global Presence Section -->
+        <div class="container">
+            <!-- Global Presence Section -->
+            <section class="section">
+                <div class="section-title">
+                    <h2>Global Presence</h2>
+                    <p>Serving investors across the world with local expertise and global vision</p>
+                </div>
+
+                <div class="global-content">
+                    <div class="map-container">
+                        <div class="world-map">
+                            <div class="map-marker india">
+                                <i class="fas fa-map-pin"></i>
+                                <div class="map-tooltip">India Office</div>
+                            </div>
+                            <div class="map-marker australia">
+                                <i class="fas fa-map-pin"></i>
+                                <div class="map-tooltip">Australia Office</div>
+                            </div>
+                            <div class="map-marker uk">
+                                <i class="fas fa-map-pin"></i>
+                                <div class="map-tooltip">United Kingdom Office</div>
+                            </div>
+                            <div class="map-marker newzealand">
+                                <i class="fas fa-map-pin"></i>
+                                <div class="map-tooltip">New Zealand Office</div>
+                            </div>
+                            <div class="map-marker canada">
+                                <i class="fas fa-map-pin"></i>
+                                <div class="map-tooltip">Canada Office</div>
+                            </div>
+                            <div class="map-marker usa">
+                                <i class="fas fa-map-pin"></i>
+                                <div class="map-tooltip">USA Office</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-container">
+                        <div class="info-card">
+                            <h4><i class="fas fa-globe-americas"></i> Our Reach</h4>
+                            <p>With operations in multiple countries, we provide research and insights tailored to local
+                                markets while maintaining a global perspective.</p>
+                        </div>
+
+                        <div class="info-card">
+                            <h4><i class="fas fa-users"></i> Local Expertise</h4>
+                            <p>Our teams in each region have deep understanding of local market dynamics, regulations,
+                                and investment opportunities.</p>
+                        </div>
+
+                        <div class="info-card">
+                            <h4><i class="fas fa-binoculars"></i> Global Vision</h4>
+                            <p>We help investors diversify their portfolios across global markets, identifying
+                                opportunities beyond geographical boundaries.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a href="/" class="d-inline-block mb-4">
+                        <img src="https://kalkine.in/assets/img/kalkine_logo.png"
+                            alt="Kalkine Solutions Pvt Ltd. India Logo" style="height: 50px;">
+                    </a>
+                    <p>Kalkine is a leading financial research firm providing independent equity research, investment
+                        recommendations, and market insights to empower investors worldwide.</p>
+                    <div class="social-links mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Product & Services</a></li>
+                        <li><a href="#research">Journey</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Equity Research</a></li>
+                        <li><a href="#">Investment Advisory</a></li>
+                        <li><a href="#">IPO Analysis</a></li>
+                        <li><a href="#">Commodity Research</a></li>
+                        <li><a href="#">Portfolio Management</a></li>
+                        <li><a href="#">Global Markets</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Sydney, Australia</li>
+                        <li><i class="fas fa-phone-alt me-2"></i> +61 2 1234 5678</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@kalkine.com</li>
+                    </ul>
+
+                    <h5 class="mt-4">Subscribe to Newsletter</h5>
+                    <div class="input-group mt-3">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button class="btn btn-outline-light" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright text-center">
+                <p class="mb-0">&copy; 2023 Kalkine. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Simple animation for markers when the page loads
+        document.addEventListener('DOMContentLoaded', function () {
+            const markers = document.querySelectorAll('.map-marker');
+
+            markers.forEach((marker, index) => {
+                // Stagger the animation with a delay
+                setTimeout(() => {
+                    marker.style.transform = 'scale(1.4)';
+                    setTimeout(() => {
+                        marker.style.transform = 'scale(1)';
+                    }, 300);
+                }, index * 200);
+            });
+        });
+    </script>
+</body>
+
+</html>
